@@ -1,0 +1,140 @@
+.intro {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.intro_container {
+  width: 80%;
+  background: transparent;
+  height: 100%;
+  margin: auto;
+  color: rgb(250, 250, 250);
+  font-weight: 600;
+  padding: 10px;
+  mix-blend-mode: normal;
+}
+
+.intro h1 {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 60px;
+  font-family: monospace;
+  font-weight: 900;
+}
+
+.intro-box {
+  display: flex;
+  margin-bottom: 30px;
+  user-select: none;
+}
+.intro_img {
+  width: 40%;
+  border-radius: 8%;
+  object-fit: cover;
+}
+.avatar {
+  position: absolute;
+  max-height: 40%;
+}
+.intro_file {
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.intro_file p {
+  display: flex;
+  padding: 20px;
+}
+.intro_1 {
+  width: 30%;
+}
+.intro_2 {
+  width: 70%;
+  padding-left: 4px;
+  overflow-wrap: break-word;
+}
+
+.nn {
+  display: none;
+}
+.intro_des.active {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .intro_1 {
+    font-size: 12px;
+  }
+  .intro_2 {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .intro_container {
+    width: 80%;
+  }
+  .intro_des2 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .intro_1 {
+    width: 35%;
+  }
+  .intro_2 {
+    width: 65%;
+  }
+  .intro_file {
+    max-height: 300px;
+  }
+  .intro_file p {
+    padding: 1px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .intro_2 {
+    font-size: 9px !important;
+  }
+  .intro_1 {
+    font-size: 9px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .intro {
+    height: 100%;
+  }
+  .intro_container {
+    width: 90%;
+    position: relative;
+  }
+  .intro h1 {
+    font-size: 30px;
+  }
+  .intro_img {
+    width: 50%;
+  }
+  .intro_file {
+    width: 50%;
+    font-size: 9px;
+  }
+  .intro_file p {
+    padding: 1px;
+    display: flex;
+  }
+  .intro_1 {
+    width: 35%;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .intro_2 {
+    padding-left: 10px;
+    width: 65%;
+    text-align: left;
+    font-size: 11px;
+  }
+  .comment {
+    display: none;
+  }
+}

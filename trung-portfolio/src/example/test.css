@@ -1,0 +1,24 @@
+.test {
+  background-color: white;
+  position: relative;
+  height: 250vh;
+  width: 100%;
+  padding-top: 120px;
+}
+.testbar {
+  position: sticky;
+  background: transparent;
+  top: 150px;
+  z-index: 2;
+  margin-bottom: 10%;
+  overflow: hidden;
+  /* border: 1px solid black; */
+}
+
+.laptop {
+  position: absolute;
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+}
